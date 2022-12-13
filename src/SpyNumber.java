@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class SpyNumber {
 
-    //   arv, mille üksikute numbrite liitmisel ja korrutamisel tuleb sama tulemus
     public static void isSpyNumber() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter a number:");
@@ -24,7 +23,5 @@ public class SpyNumber {
         } else {
             System.out.println(spyNum + " Is not a Spy Number");
         }
-
     }
-
 }
