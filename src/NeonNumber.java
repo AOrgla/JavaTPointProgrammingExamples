@@ -4,6 +4,7 @@ public class NeonNumber {
 
     public static void neonNumberChecker() {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter a number:");
         int a = scanner.nextInt();
         int sq = a * a;
         int digit;
@@ -16,9 +17,9 @@ public class NeonNumber {
         }
 
         if (a == sumOfDigits) {
-            System.out.println("neon number");
+            System.out.println(a + " Is a neon number");
         } else {
-            System.out.println("not a neon number");
+            System.out.println(a + " Is not a neon number");
         }
     }
 
